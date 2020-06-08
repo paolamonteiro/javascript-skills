@@ -10,25 +10,25 @@ const pets = [
 	{ name: 'Harold', species: 'fish' },
 	{ name: 'Ursula', species: 'cat' },
 	{ name: 'Jimmy', species: 'fish' },
-]
+];
 
 // Basic JS solution:
 const names = [];
-for(let i = 0; i < pets.length; i++) {
+for (let i = 0; i < pets.length; i++) {
 	names.push(pets[i].name);
-};
+}
 // log: ["Fluffykins", "Caro", "Hamilton", "Harold", "Ursula", "Jimmy"]
 
 // FP solution using map:
-const names2 = pets.map(function(pet) {
-	return pet.name
+const names2 = pets.map(function (pet) {
+	return pet.name;
 });
 // log: ["Fluffykins", "Caro", "Hamilton", "Harold", "Ursula", "Jimmy"]
 
 // Map expects the callback to return any object,
-// and we can use this to create completely new objects:
+// and it can be used to create completely new objects:
 
-const names3 = pets.map(function(pet) {
+const names3 = pets.map(function (pet) {
 	return pet.name + ' is a ' + pet.species;
 });
 /*
