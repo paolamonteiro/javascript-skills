@@ -1,5 +1,5 @@
 // Map, filter, reject and find are lots of array transformations,
-// them turn the list into something else but they are pretty specific,
+// it turns the list into something else but they are pretty specific,
 // reduce is the multi tool on list transformations.
 
 // Example to get the amount total:
