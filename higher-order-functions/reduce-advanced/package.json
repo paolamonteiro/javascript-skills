@@ -1,0 +1,17 @@
+{
+  "name": "reduce-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reduce-advanced-usage.js",
+  "type": "module",
+  "scripts": {
+    "start": "node reduce-advanced-usage.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paola Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
