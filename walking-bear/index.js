@@ -4,9 +4,9 @@ const paths = [
 	'https://raw.githubusercontent.com/gabrieldarezzo/helpjs-ravi/master/images/chara-3.png',
 ];
 
-var i = 0;
+let i = 0;
 let steps = 0;
-var timer = setInterval(function () {
+let timer = setInterval(function () {
 	if (i >= paths.length) {
 		i = 0;
 	}
