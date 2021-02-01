@@ -32,16 +32,16 @@ function compareTriplets(a, b) {
 	let bobSum = 0;
 	let result = [0, 0];
 
-	for(let i = 0; i < a.length; i++) {
+	for (let i = 0; i < a.length; i++) {
 		if (a[i] > b[i]) {
 			aliceSum += 1;
-		} 
-		
-		if(a[i] < b[i]) {
+		}
+
+		if (a[i] < b[i]) {
 			bobSum += 1;
 		}
 
-		if(a[i] === b[i]) {
+		if (a[i] === b[i]) {
 			aliceSum += 0;
 			bobSum += 0;
 		}
@@ -52,4 +52,4 @@ function compareTriplets(a, b) {
 	return result
 }
 
-compareTriplets(alicePoints, bobPoints);
+console.log(compareTriplets(alicePoints, bobPoints));
