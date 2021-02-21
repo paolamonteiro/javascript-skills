@@ -1,3 +1,7 @@
+/**
+ * Creating a graph with people and their favorite ice cream flavors
+ */
+
 class PersonNode {
   constructor(name) {
     this.name = name;
