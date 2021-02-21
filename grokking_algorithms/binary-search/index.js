@@ -22,3 +22,23 @@ const binary = (list, x) => {
 } 
 
 binary(list, 99999999);
+
+
+const binary = (list, x) => {
+	// 1. definir o low
+	// 2. definir o high
+	// 3. definir o mid
+	// 4. retornar a posição do x
+
+
+	let low = 0;
+	let high = list.length -1;
+	let mid = Math.floor((low + high) / 2);
+
+	let guess = list[mid];
+	if(guess === x) {
+		return mid;
+	}
+
+	// 
+} 
