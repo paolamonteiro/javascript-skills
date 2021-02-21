@@ -13,7 +13,7 @@
 
 const phoneBook = {};
 
-phoneBook['Paola'], 989327975;
+phoneBook['Paola'] = 989327975;
 phoneBook['Bruno'] = 984093784;
 phoneBook['Lala'] = 515151515;
 phoneBook['Lorem'] = 424242424;
@@ -27,10 +27,10 @@ hash(phoneBook, 'Paola');
 // Map implementation:
 const phoneBook2 = new Map();
 
-phoneBook.set('Paola', 989327975);
-phoneBook.set('Bruno', 984093784);
-phoneBook.set('Lala', 515151515);
-phoneBook.set('Lorem', 424242424);
+phoneBook2.set('Paola', 989327975);
+phoneBook2.set('Bruno', 984093784);
+phoneBook2.set('Lala', 515151515);
+phoneBook2.set('Lorem', 424242424);
 
 const hash2 = (book, contact) => {
 	console.log(book.get(contact));
