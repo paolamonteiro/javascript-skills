@@ -22,7 +22,7 @@ graph['jonny'] = [];
 
 
 // Function to determine whether a person is a seller
-const personIsSeller = name => name === "jonny";
+const isSeller = name => name === "jonny";
 
 // Function to find a mango seller
 const search = name => {
@@ -33,7 +33,7 @@ const search = name => {
     const person = searchQueue.shift();
 
     if (searched.indexOf(person) === -1) {
-      if (personIsSeller(person)) {
+      if (isSeller(person)) {
         console.log(`${person} is a mango seller!`);
         return true;
       }
